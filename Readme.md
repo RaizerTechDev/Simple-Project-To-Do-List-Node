@@ -42,7 +42,7 @@ npm install express sqlite3
 ### 3. Estrutura do Projeto:
 
 ```
-projeto-tarefas/
+Project-To-Do-List/
 │
 ├── db/
 │   └── database.sqlite  // Arquivo de banco de dados
