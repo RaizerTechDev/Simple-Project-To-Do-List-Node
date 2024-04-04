@@ -1,17 +1,14 @@
-# Projeto Simple-Project-To-Do-List!!!
+# Project Simple-Project-To-Do-List!!!
 
 <br>
 
  <div align="center">
-<img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
-
-[ ( Clique aqui e venha Gerenciar e Organizar ```Tasks of the Day!!!```) ](#link-projeto)
 
 <br>
 
 <div align="center">
   
-<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Portfolio-RafaRz76Dev] <img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
+<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Manage Tasks of the Day] <img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
 
 <img height="480em" src="./public/assets/images/apresentacao-readme.gif"  align="center"> 
 
@@ -22,7 +19,7 @@
 
 ### Objetivo
 
-- Praticar a criação de uma Lista de Tarefas do teu dia-a-dia em HTML, CSS e JavaScript com ambiente Node para execução. Usando o padrão de arquitetura MVC (Model-View-Controller), e armazenando as tarefas em um banco de dados que vai ser o SQLite
+- Praticar a criação de uma Lista de Tarefas do seu dia-a-dia em HTML, CSS e JavaScript com ambiente Node para execução. Usando o padrão de arquitetura MVC (Model-View-Controller), e armazenando as tarefas em um banco de dados que vai ser o SQLite
 
 ### 1. Configuração do Ambiente de Desenvolvimento:
 - Criação de um diretório para o projeto e abrir no terminal ```bash```.
