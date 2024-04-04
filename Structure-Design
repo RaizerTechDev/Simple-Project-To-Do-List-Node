@@ -1,0 +1,19 @@
+Project-To-Do-List/
+│
+├── db/
+│   └── database.sqlite  // Arquivo de banco de dados
+│
+├── public/
+│   ├──   assets/
+│   │     └── images       // Arquivos a pasta Imagens
+│   │     └── styles.css  // Arquivo CSS
+│   └── index.html      // Página de Arquivo HTML
+│
+├── src/
+│   │
+│   ├── models/
+│   │   └── taskModel.js       // Modelo de tarefa
+│   │
+│   └── app.js        // Arquivo principal
+│
+└── package.json

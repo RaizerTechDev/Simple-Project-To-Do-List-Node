@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon"
+        href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW10YXJqMHd1NWpuOGRybGp6MDdnaWxzM290Z2wwOWNqeDBwejVpNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/K9XBWCf7bfrtch4gLf/giphy.gif"
+        type="image/x-icon" />
+
+    <title>Manage & Organize: To-Do List</title>
+
+
+</head>
+
+<body>
+    <div class="robot--tech"><img
+            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNlejgxOXQwM3VjZTViMzZpMHhxcGVpaHBsZjB4Nm16YnFrMGcwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pvkFec2SeOW8aVEVG6/giphy.gif"
+            alt="logo" width="60" />
+    </div>
+    <h1 class="title">Manage Tasks of the Day</h1>
+    <form class="task-form" action="/add-task" method="post" autocomplete="off">
+        <label class="task-form__label" for="title">Title:</label>
+        <input class="task-form__input" type="text" id="title" name="title" placeholder="Type your task!">
+        <br>
+        <label class="task-form__label" for="description">Description:</label>
+        <textarea class="task-form__textarea" id="description" name="description"
+            placeholder="Describe your task!"></textarea>
+        <br>
+        <button class="task-form__button" type="submit">Add Task</button>
+    </form>
+</body>
+
+</html>

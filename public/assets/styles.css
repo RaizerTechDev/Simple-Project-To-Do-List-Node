@@ -1,0 +1,88 @@
+/* Estilos para a página */
+
+body {
+  font-family: "DM Sans", sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../assets/images/tech-background.jpg"); /* Corrija o caminho da imagem de fundo */
+
+}
+
+.robot--tech {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  color: #95df46;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.task-form {
+  width: 40%; /* Defina a largura desejada para o formulário */
+  margin: 0 auto; /* Centralize o formulário na página */
+  background-color: #646161;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-form__label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+.task-form__input
+ {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-weight: bold;
+  
+}
+
+.task-form__textarea {
+  width: 40%;
+  height: 60px; /* Defina a altura desejada para a textarea */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.task-form__button {
+  background-color: #3b3;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-form__button:hover {
+  background-color: #52dff8;
+}
+
+@media screen and (max-width: 600px) {
+  .task-form__input,
+  .task-form__textarea {
+    width: calc(100% - 20px);
+  }
+
+  .task-form__button {
+    width: calc(100% - 40px);
+  }
+}
+
+
+
