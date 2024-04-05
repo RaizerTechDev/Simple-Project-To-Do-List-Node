@@ -19,7 +19,7 @@
 
 ### Objetivo
 
-- Praticar a criação de uma Lista de Tarefas do seu dia-a-dia em HTML, CSS e JavaScript com ambiente Node para execução. Usando o padrão de arquitetura MVC (Model-View-Controller), e armazenando as tarefas em um banco de dados que vai ser o SQLite.
+- O projeto que desenvolvi representa uma ferramenta essencial para meus estudos e futuros trabalhos: uma Lista de Tarefas do dia-a-dia. Nesta aplicação, os usuários podem interagir ao adicionar suas tarefas e verificar que elas são salvas em um banco de dados. Além disso, apliquei o padrão de arquitetura MVC (Model-View-Controller) para organizar e estruturar o código de forma eficiente. Utilizei as principais tecnologias, incluindo HTML, CSS, JavaScript e Node, para implementar esse projeto. Esta experiência não apenas consolidou meus conhecimentos nessas áreas, mas também me preparou para enfrentar desafios futuros com confiança.
 
 ### 1. Configuração do Ambiente de Desenvolvimento:
 - Criação de um diretório para o projeto e abrir no terminal ```bash```.
