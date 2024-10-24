@@ -42,8 +42,6 @@ Project-To-Do-List/
 │   └── index.html      // Página HTML
 │
 ├── src/
-│   ├── controllers/
-│   │   └── taskController.js  // Controlador de tarefas
 │   │
 │   ├── models/
 │   │   └── taskModel.js       // Modelo de tarefa
@@ -54,9 +52,9 @@ Project-To-Do-List/
 
 ```
 
-### 4. Configuração do Banco de Dados:
+### 4. Instalando dependências:
 
-- Execute o seguinte comando no terminal para instalação de dependências:
+- Execute o seguinte comando no terminal:
 
 ```
 npm install express filesystem dotenv mongoose
