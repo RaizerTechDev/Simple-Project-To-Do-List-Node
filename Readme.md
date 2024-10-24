@@ -31,21 +31,12 @@ Execute os seguintes comandos no terminal:
 
 ```
 npm init -y
-
-```
-
-```
-npm install express sqlite3
-
 ```
 
 ### 3. Estrutura do Projeto:
 
 ```
 Project-To-Do-List/
-│
-├── db/
-│   └── database.sqlite  // Arquivo de banco de dados
 │
 ├── public/
 │   └── index.html      // Página HTML
@@ -65,11 +56,10 @@ Project-To-Do-List/
 
 ### 4. Configuração do Banco de Dados:
 
-- Execute o seguinte comando no terminal para criar o banco de dados:
+- Execute o seguinte comando no terminal para instalação de dependências:
 
 ```
-touch db/database.sqlite
-
+npm install express filesystem dotenv mongoose
 ```
 
 ### 5. Execução e Teste:
@@ -77,7 +67,7 @@ touch db/database.sqlite
 <img src="https://media.giphy.com/media/OMrq9FmUgObwogeL06/giphy.gif" align="center" height="35" width="45"> Agora para interagir com o projeto:
 #### Vai rodar o ambiente de execução:
 
-```node src/app.py``` e 👉 Abra "http://localhost:3000/" para visualizar o projeto em seu navegador.
+```node src/app.js``` e 👉 Abra "http://localhost:3000/" para visualizar o projeto em seu navegador.
 
 ***
 
